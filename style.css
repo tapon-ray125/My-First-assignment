@@ -41,7 +41,7 @@ nav {
 
 /* hero  */
 .hero-bg {
-  background-image: url("/assets/Hero-bg.png");
+  background-image: url("assets/Hero-bg.png");
   height: 698px;
 
   .hero {
