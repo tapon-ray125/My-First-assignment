@@ -76,6 +76,37 @@ nav {
   img {
     border-radius: 30px;
   }
+}
+
+/* user counter */
+.user-counter {
+  width: 1100px;
+  height: 305px;
+  border-radius: 30px;
+  background-color: #dad8ff;
+  padding: 50px;
+  text-align: center;
+  margin: 100px auto;
+  h1 {
+    color: #252432;
+    font-size: 35px;
+  }
+  .user-counter_content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 60px;
+
+    h1 {
+      font-size: 50px;
+      font-weight: bold;
+      color: #4e47ff;
+    }
+    p {
+      font-size: 17px;
+      font-weight: 500;
+    }
+  }
 } 
 
 footer {
