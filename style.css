@@ -171,6 +171,57 @@ nav {
 }
 
 
+/* contact */
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 100px auto;
+  padding: 40px;
+  background-color: #f9f9f9;
+
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  h1 {
+    margin-bottom: 30px;
+    font-size: 100px;
+    color: #333;
+    width: 100%;
+  }
+  .form {
+    width: 100%;
+    .form-content {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+
+      label {
+        margin-bottom: 8px;
+        font-weight: 600;
+        color: #444;
+      }
+
+      input,
+      textarea {
+        padding: 10px 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 1em;
+        transition: border-color 0.3s;
+
+        &:focus {
+          border-color: #007bff;
+          outline: none;
+        }
+      }
+      textarea {
+        resize: vertical;
+        min-height: 100px;
+      }
+    }
+  }
+}
 
 footer {
   text-align: center;
