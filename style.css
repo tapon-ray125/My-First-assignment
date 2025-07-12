@@ -41,7 +41,7 @@ nav {
 
 /* hero  */
 .hero-bg {
-  background-image: url("/assets/hero-bg.png");
+  background-image: url("/assets/Hero-bg.png");
   height: 698px;
 
   .hero {
@@ -149,6 +149,27 @@ nav {
     }
   }
 }
+
+/* focus */
+.focus {
+  margin: 100px auto;
+  text-align: center;
+  h1 {
+    font-weight: 700;
+    font-size: 48px;
+  }
+  p {
+    margin: 20px auto;
+    color: #a7a7a7;
+    font-weight: 100;
+    font-size: 15px;
+  }
+  img {
+    border-radius: 20px;
+    margin-top: 30px;
+  }
+}
+
 
 
 footer {
