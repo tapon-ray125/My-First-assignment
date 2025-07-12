@@ -41,7 +41,7 @@ nav {
 
 /* hero  */
 .hero-bg {
-  background-image: url("/assets/Hero-bg.png");
+  background-image: url("/assets/hero-bg.png");
   height: 698px;
 
   .hero {
@@ -107,7 +107,49 @@ nav {
       font-weight: 500;
     }
   }
-} 
+}
+
+/* user review */
+.user-review {
+  margin: 100px auto;
+  h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .user-review_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    .user-card {
+      background-color: #ffffff;
+      border: 2px solid #f2eded;
+      width: 366px;
+      border-radius: 20px;
+      padding: 30px;
+      .icon-star {
+        display: flex;
+        align-items: center;
+      }
+      h3 {
+        margin-top: 10px;
+      }
+      p {
+        color: #1e1e1e;
+        margin: 15px auto;
+      }
+      .author {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        img {
+          border-radius: 50px;
+        }
+      }
+    }
+  }
+}
+
 
 footer {
   text-align: center;
